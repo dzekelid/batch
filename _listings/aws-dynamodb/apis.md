@@ -11,55 +11,45 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Batch
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/batch/master/_listings/aws-dynamodb/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Amazon DynamoDB API Batch Get Item
-  x-api-slug: amazon-dynamodb-api
+- name: AWS DynamoDB API - Batch Get Item
+  x-api-slug: actionbatchgetitem-get
   description: |-
     The BatchGetItem operation returns the attributes of one or more items from one or
           more tables.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonDynamoDB.png
   humanURL: https://aws.amazon.com/dynamodb/
-  baseURL: ://///?Action=BatchGetItem
-  tags: Batch Items
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, API Service Provider, API Service Provider,
+    API Provider, Databases, Profiles, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/batch/master/_listings/aws-dynamodb/actionbatchgetitem-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/batch/master/_listings/aws-dynamodb/actionbatchgetitem-get-openapi.md
-- name: Amazon DynamoDB API Batch Write Item
-  x-api-slug: amazon-dynamodb-api
+- name: AWS DynamoDB API - Batch Write Item
+  x-api-slug: actionbatchwriteitem-get
   description: The BatchWriteItem operation puts or deletes multiple items in one
     or more tables.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonDynamoDB.png
   humanURL: https://aws.amazon.com/dynamodb/
-  baseURL: ://///?Action=BatchWriteItem
-  tags: Batch Items
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, API Service Provider, API Service Provider,
+    API Provider, Databases, Profiles, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/batch/master/_listings/aws-dynamodb/actionbatchwriteitem-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/batch/master/_listings/aws-dynamodb/actionbatchwriteitem-get-openapi.md
-- name: Amazon DynamoDB API
-  x-api-slug: amazon-dynamodb-api
-  description: Amazon DynamoDB is a fast and flexible NoSQL database service for all
-    applications that need consistent, single-digit millisecond latency at any scale.
-    It is a fully managed cloud database and supports both document and key-value
-    store models. Its flexible data model and reliable performance make it a great
-    fit for mobile, web, gaming, ad tech, IoT, and many other applications. Start
-    today by downloading the local version of DynamoDB, then read our Getting Started
-    Guide.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonDynamoDB.png
-  humanURL: https://aws.amazon.com/dynamodb/
-  baseURL: :///
-  tags: Batch
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/batch/master/_listings/aws-dynamodb/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://aws.directory.service.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://aws.dynamodb.stack.network
 - type: x-best-practices
   url: https://aws.amazon.com/dynamodb/developer-resources/#BestPractices
 - type: x-blog

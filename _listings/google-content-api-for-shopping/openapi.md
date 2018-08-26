@@ -39,6 +39,42 @@ paths:
       tags:
       - Account
       - Batch
+  /accountstatuses/batch:
+    post:
+      summary: Account Status Batch
+      description: Retrieves account batch status.
+      operationId: content.accountstatuses.custombatch
+      x-api-path-slug: accountstatusesbatch-post
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Account
+      - Status
+      - Batch
+  /productstatuses/batch:
+    post:
+      summary: Product Batch
+      description: Gets the statuses of multiple products in a single request. This
+        method can only be called for non-multi-client accounts.
+      operationId: content.productstatuses.custombatch
+      x-api-path-slug: productstatusesbatch-post
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Product
+      - Batch
   /accountshipping/batch:
     post:
       summary: Account Batches
@@ -60,61 +96,4 @@ paths:
       tags:
       - Account
       - Batches
-  /accountstatuses/batch:
-    post:
-      summary: Account Status Batch
-      description: Retrieves account batch status.
-      operationId: content.accountstatuses.custombatch
-      x-api-path-slug: accountstatusesbatch-post
-      parameters:
-      - in: body
-        name: body
-        schema:
-          $ref: '#/definitions/holder'
-      responses:
-        200:
-          description: OK
-      tags:
-      - Account
-      - Status
-      - Batch
-  /products/batch:
-    post:
-      summary: Product Batches
-      description: Retrieves, inserts, and deletes multiple products in a single request.
-        This method can only be called for non-multi-client accounts.
-      operationId: content.products.custombatch
-      x-api-path-slug: productsbatch-post
-      parameters:
-      - in: body
-        name: body
-        schema:
-          $ref: '#/definitions/holder'
-      - in: query
-        name: dryRun
-        description: Flag to run the request in dry-run mode
-      responses:
-        200:
-          description: OK
-      tags:
-      - Product
-      - Batches
-  /productstatuses/batch:
-    post:
-      summary: Product Batch
-      description: Gets the statuses of multiple products in a single request. This
-        method can only be called for non-multi-client accounts.
-      operationId: content.productstatuses.custombatch
-      x-api-path-slug: productstatusesbatch-post
-      parameters:
-      - in: body
-        name: body
-        schema:
-          $ref: '#/definitions/holder'
-      responses:
-        200:
-          description: OK
-      tags:
-      - Product
-      - Batch
 ---

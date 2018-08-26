@@ -19,6 +19,23 @@ produces:
 consumes:
 - application/json
 paths:
+  /api/imports/{id}:
+    get:
+      summary: View Batch Details
+      description: View batch details.
+      operationId: viewBatchDetail
+      x-api-path-slug: apiimportsid-get
+      parameters:
+      - in: path
+        name: id
+        description: The import batch identifier
+      responses:
+        200:
+          description: OK
+      tags:
+      - View
+      - Batch
+      - Details
   /api/imports:
     get:
       summary: View In-Progress & Completed Batches

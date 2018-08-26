@@ -19,6 +19,23 @@ produces:
 consumes:
 - application/json
 paths:
+  /api/imports/{id}:
+    get:
+      summary: View Batch Details
+      description: View batch details.
+      operationId: viewBatchDetail
+      x-api-path-slug: apiimportsid-get
+      parameters:
+      - in: path
+        name: id
+        description: The import batch identifier
+      responses:
+        200:
+          description: OK
+      tags:
+      - View
+      - Batch
+      - Details
   /api/imports:
     get:
       summary: View In-Progress & Completed Batches
@@ -36,6 +53,23 @@ paths:
       - View
       - In-Progress
       - '&'
+      - Completed
+      - Batches
+  /api/imports/completed:
+    get:
+      summary: View Completed Batches
+      description: View only recent completed import batches.
+      operationId: viewCompletedBatches
+      x-api-path-slug: apiimportscompleted-get
+      parameters:
+      - in: query
+        name: page
+        description: 50 items are displayed per page
+      responses:
+        200:
+          description: OK
+      tags:
+      - View
       - Completed
       - Batches
   /api/imports/processing:

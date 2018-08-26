@@ -7,33 +7,16 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28093-iex.
 x-kinRank: "9"
 x-alexaRank: "166667"
 tags: Batch
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/batch/master/_listings/iex/apis.md
 specificationVersion: "0.14"
-apis:
-- name: IEX Trading API Batch Requests
-  x-api-slug: iex-trading-api
-  description: Returns batch stock quotes.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28093-iex.jpg
-  humanURL: https://iextrading.com
-  baseURL: https://api.iextrading.com//1.0//stock/market/batch
-  tags: Market Data,Quotes,Batch
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/batch/master/_listings/iex/stockmarketbatch-get-openapi.md
-- name: IEX Trading API
-  x-api-slug: iex-trading-api
-  description: IEX, the Investors Exchange, is a fair, simple and transparent stock
-    exchange dedicated to investor and issuer protection.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28093-iex.jpg
-  humanURL: https://iextrading.com
-  baseURL: https://api.iextrading.com//1.0
-  tags: Batch
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/batch/master/_listings/iex/openapi.md
+apis: []
 x-common:
+- type: x-api-gallery
+  url: http://idx.broker.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://iex.stack.network
 - type: x-authentication
   url: https://iextrading.com/developer/docs/#authentication
 - type: x-blog

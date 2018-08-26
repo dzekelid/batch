@@ -19,59 +19,6 @@ produces:
 consumes:
 - application/json
 paths:
-  /api/imports:
-    get:
-      summary: View In-Progress & Completed Batches
-      description: View recent in-progress and completed import batches.
-      operationId: viewAllBatches
-      x-api-path-slug: apiimports-get
-      parameters:
-      - in: query
-        name: page
-        description: 50 items are displayed per page
-      responses:
-        200:
-          description: OK
-      tags:
-      - View
-      - In-Progress
-      - '&'
-      - Completed
-      - Batches
-  /api/imports/processing:
-    get:
-      summary: View In-Progress Batches
-      description: View only recent in-progress import batches.
-      operationId: viewInProgressBatches
-      x-api-path-slug: apiimportsprocessing-get
-      parameters:
-      - in: query
-        name: page
-        description: 50 items are displayed per page
-      responses:
-        200:
-          description: OK
-      tags:
-      - View
-      - In-Progress
-      - Batches
-  /api/imports/completed:
-    get:
-      summary: View Completed Batches
-      description: View only recent completed import batches.
-      operationId: viewCompletedBatches
-      x-api-path-slug: apiimportscompleted-get
-      parameters:
-      - in: query
-        name: page
-        description: 50 items are displayed per page
-      responses:
-        200:
-          description: OK
-      tags:
-      - View
-      - Completed
-      - Batches
   /api/imports/{id}:
     get:
       summary: View Batch Details

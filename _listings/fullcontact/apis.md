@@ -7,33 +7,16 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/205-fullco
 x-kinRank: "9"
 x-alexaRank: "49636"
 tags: Batch
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/batch/master/_listings/fullcontact/apis.md
 specificationVersion: "0.14"
-apis:
-- name: FullContact Batch Process
-  x-api-slug: fullcontact
-  description: Batch Process
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/205-fullcontact.jpg
-  humanURL: http://fullcontact.com
-  baseURL: https://api.fullcontact.com////batch.json
-  tags: Batch
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/batch/master/_listings/fullcontact/batch-json-get-openapi.md
-- name: FullContact
-  x-api-slug: fullcontact
-  description: Build a clearer picture of your customers in minutes with our data-focused
-    APIs. Manage your personal or teams contacts with our contact apps.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/205-fullcontact.jpg
-  humanURL: http://fullcontact.com
-  baseURL: https://api.fullcontact.com//
-  tags: Batch
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/batch/master/_listings/fullcontact/openapi.md
+apis: []
 x-common:
+- type: x-api-gallery
+  url: http://freesound.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://fullcontact.stack.network
 - type: x-base
   url: https://api.fullcontact.com
 - type: x-blog
