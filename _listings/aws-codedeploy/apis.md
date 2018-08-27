@@ -12,11 +12,79 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Batch
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/batch/master/_listings/aws-codedeploy/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: AWS CodeDeploy API - Batch Get Application Revisions
+  x-api-slug: actionbatchgetapplicationrevisions-get
+  description: Gets information about one or more application revisions.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-codedeploy.png
+  humanURL: https://aws.amazon.com/codedeploy/
+  baseURL: :///
+  tags: Amazon Web Services, SDK, Orchestration, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/batch/master/_listings/aws-codedeploy/actionbatchgetapplicationrevisions-get-openapi.md
+- name: AWS CodeDeploy API - Batch Get Applications
+  x-api-slug: actionbatchgetapplications-get
+  description: Gets information about one or more applications.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-codedeploy.png
+  humanURL: https://aws.amazon.com/codedeploy/
+  baseURL: :///
+  tags: Amazon Web Services, SDK, Orchestration, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/batch/master/_listings/aws-codedeploy/actionbatchgetapplications-get-openapi.md
+- name: AWS CodeDeploy API - Batch Get Deployment Groups
+  x-api-slug: actionbatchgetdeploymentgroups-get
+  description: Gets information about one or more deployment groups.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-codedeploy.png
+  humanURL: https://aws.amazon.com/codedeploy/
+  baseURL: :///
+  tags: Amazon Web Services, SDK, Orchestration, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/batch/master/_listings/aws-codedeploy/actionbatchgetdeploymentgroups-get-openapi.md
+- name: AWS CodeDeploy API - Batch Get Deployment Instances
+  x-api-slug: actionbatchgetdeploymentinstances-get
+  description: |-
+    Gets information about one or more instance that are part of a deployment
+                group.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-codedeploy.png
+  humanURL: https://aws.amazon.com/codedeploy/
+  baseURL: :///
+  tags: Amazon Web Services, SDK, Orchestration, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/batch/master/_listings/aws-codedeploy/actionbatchgetdeploymentinstances-get-openapi.md
+- name: AWS CodeDeploy API - Batch Get Deployments
+  x-api-slug: actionbatchgetdeployments-get
+  description: Gets information about one or more deployments.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-codedeploy.png
+  humanURL: https://aws.amazon.com/codedeploy/
+  baseURL: :///
+  tags: Amazon Web Services, SDK, Orchestration, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/batch/master/_listings/aws-codedeploy/actionbatchgetdeployments-get-openapi.md
+- name: AWS CodeDeploy API - Batch Get On Premises Instances
+  x-api-slug: actionbatchgetonpremisesinstances-get
+  description: Gets information about one or more on-premises instances.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-codedeploy.png
+  humanURL: https://aws.amazon.com/codedeploy/
+  baseURL: :///
+  tags: Amazon Web Services, SDK, Orchestration, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/batch/master/_listings/aws-codedeploy/actionbatchgetonpremisesinstances-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.codecommit.api.gallery.streamdata.io

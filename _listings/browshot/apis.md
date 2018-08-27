@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/717-browsh
 x-kinRank: "7"
 x-alexaRank: "1714303"
 tags: Batch
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/batch/master/_listings/browshot/apis.md
 specificationVersion: "0.14"
 apis:
@@ -22,7 +22,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/717-browshot-com.jpg
   humanURL: http://browshot.com/
   baseURL: https://api.browshot.com//api/v1
-  tags: BROWSER, Screenshot, Utility, Screen Capture, Mobile, Technology, SaaS, internet,
+  tags: Browsers, Screenshot, Utility, Screen Capture, Mobile, Technology, SaaS, internet,
     API Provider, Profiles, Service API
   properties:
   - type: x-postman-collection
@@ -36,7 +36,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/717-browshot-com.jpg
   humanURL: http://browshot.com/
   baseURL: https://api.browshot.com//api/v1
-  tags: BROWSER, Screenshot, Utility, Screen Capture, Mobile, Technology, SaaS, internet,
+  tags: Browsers, Screenshot, Utility, Screen Capture, Mobile, Technology, SaaS, internet,
     API Provider, Profiles, Service API
   properties:
   - type: x-postman-collection

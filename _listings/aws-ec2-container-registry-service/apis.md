@@ -15,11 +15,23 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Batch
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/batch/master/_listings/aws-ec2-container-registry-service/apis.md
 specificationVersion: "0.14"
 apis:
+- name: AWS EC2 Container Registry API - Batch Check Layer Availability
+  x-api-slug: actionbatchchecklayeravailability-get
+  description: Check the availability of multiple image layers in a specified registry
+    and repository.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonECR.png
+  humanURL: https://aws.amazon.com/ecr/
+  baseURL: :///
+  tags: Amazon Web Services, Containers, Discovery, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/batch/master/_listings/aws-ec2-container-registry-service/actionbatchchecklayeravailability-get-openapi.md
 - name: AWS EC2 Container Registry API - Batch Delete Image
   x-api-slug: actionbatchdeleteimage-get
   description: Deletes a list of specified images within a specified repository.

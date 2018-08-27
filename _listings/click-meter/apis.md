@@ -13,11 +13,51 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Batch
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/batch/master/_listings/click-meter/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Click Meter - Modify the association between a conversion and multiple datapoints
+  x-api-slug: conversionsconversioniddatapointsbatchpatch-put
+  description: Modify the association between a conversion and multiple datapoints.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clickmeter-logo.png
+  humanURL: http://clickmeter.com
+  baseURL: https://apiv2.clickmeter.com:80//
+  tags: API Provider, Links, Profiles, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/batch/master/_listings/click-meter/conversionsconversioniddatapointsbatchpatch-put-openapi.md
+- name: Click Meter - Delete multiple datapoints
+  x-api-slug: datapointsbatch-delete
+  description: Delete multiple datapoints.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clickmeter-logo.png
+  humanURL: http://clickmeter.com
+  baseURL: https://apiv2.clickmeter.com:80//
+  tags: API Provider, Links, Profiles, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/batch/master/_listings/click-meter/datapointsbatch-delete-openapi.md
+- name: Click Meter - Update multiple datapoints
+  x-api-slug: datapointsbatch-post
+  description: Update multiple datapoints.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clickmeter-logo.png
+  humanURL: http://clickmeter.com
+  baseURL: https://apiv2.clickmeter.com:80//
+  tags: API Provider, Links, Profiles, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/batch/master/_listings/click-meter/datapointsbatch-post-openapi.md
+- name: Click Meter - Create multiple datapoints
+  x-api-slug: datapointsbatch-put
+  description: Create multiple datapoints.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clickmeter-logo.png
+  humanURL: http://clickmeter.com
+  baseURL: https://apiv2.clickmeter.com:80//
+  tags: API Provider, Links, Profiles, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/batch/master/_listings/click-meter/datapointsbatch-put-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://clearbit.api.gallery.streamdata.io

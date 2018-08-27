@@ -20,11 +20,69 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Batch
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/batch/master/_listings/aws-machine-learning/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: AWS Machine Learning API - Create Batch Prediction
+  x-api-slug: actioncreatebatchprediction-get
+  description: Generates predictions for a group of observations.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonMachineLearning.png
+  humanURL: https://aws.amazon.com/machine-learning/
+  baseURL: :///
+  tags: Amazon Web Services, Machine Learning, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/batch/master/_listings/aws-machine-learning/actioncreatebatchprediction-get-openapi.md
+- name: AWS Machine Learning API - Delete Batch Prediction
+  x-api-slug: actiondeletebatchprediction-get
+  description: Assigns the DELETED status to a BatchPrediction, rendering it unusable.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonMachineLearning.png
+  humanURL: https://aws.amazon.com/machine-learning/
+  baseURL: :///
+  tags: Amazon Web Services, Machine Learning, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/batch/master/_listings/aws-machine-learning/actiondeletebatchprediction-get-openapi.md
+- name: AWS Machine Learning API - Describe Batch Predictions
+  x-api-slug: actiondescribebatchpredictions-get
+  description: Returns a list of BatchPrediction operations that match the search
+    criteria in the request.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonMachineLearning.png
+  humanURL: https://aws.amazon.com/machine-learning/
+  baseURL: :///
+  tags: Amazon Web Services, Machine Learning, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/batch/master/_listings/aws-machine-learning/actiondescribebatchpredictions-get-openapi.md
+- name: AWS Machine Learning API - Get Batch Prediction
+  x-api-slug: actiongetbatchprediction-get
+  description: |-
+    Returns a BatchPrediction that includes detailed metadata, status, and data file information for a
+                Batch Prediction request.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonMachineLearning.png
+  humanURL: https://aws.amazon.com/machine-learning/
+  baseURL: :///
+  tags: Amazon Web Services, Machine Learning, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/batch/master/_listings/aws-machine-learning/actiongetbatchprediction-get-openapi.md
+- name: AWS Machine Learning API - Update Batch Prediction
+  x-api-slug: actionupdatebatchprediction-get
+  description: Updates the BatchPredictionName of a BatchPrediction.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonMachineLearning.png
+  humanURL: https://aws.amazon.com/machine-learning/
+  baseURL: :///
+  tags: Amazon Web Services, Machine Learning, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/batch/master/_listings/aws-machine-learning/actionupdatebatchprediction-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.lightsale.api.gallery.streamdata.io

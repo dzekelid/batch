@@ -10,11 +10,22 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Batch
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/batch/master/_listings/aws-codecommit/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: AWS CodeCommit API - Batch Get Repositories
+  x-api-slug: actionbatchgetrepositories-get
+  description: Returns information about one or more repositories.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Developer-Tools_AWSCodeCommit.png
+  humanURL: https://aws.amazon.com/codecommit/
+  baseURL: :///
+  tags: Amazon Web Services, SDK, Orchestration, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/batch/master/_listings/aws-codecommit/actionbatchgetrepositories-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.codebuild.api.gallery.streamdata.io

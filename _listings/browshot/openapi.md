@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Browshot
 x-complete: 1
@@ -142,4 +141,3 @@ paths:
       tags:
       - Batch
       - Info
----

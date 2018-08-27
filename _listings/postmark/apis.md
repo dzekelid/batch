@@ -8,8 +8,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/638-postma
 x-kinRank: "8"
 x-alexaRank: "87545"
 tags: Batch
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/batch/master/_listings/postmark/apis.md
 specificationVersion: "0.14"
 apis:
@@ -26,6 +26,33 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/batch/master/_listings/postmark/emailbatch-parameters-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/batch/master/_listings/postmark/emailbatch-parameters-openapi.md
+- name: Postmark - Post Email Batch
+  x-api-slug: emailbatch-post
+  description: "While Postmark is focused on transactional email, we understand that
+    developers with higher volumes or processing time constraints need to send their
+    messages in batches. To facilitate this we provide a batching endpoint that permits
+    you to send up to 500 well-formed Postmark messages in a single API call.\n                    \nThe
+    format of the batched message is a JSON array containing multiple message requests
+    like the following example:\n[\n    {From: 'sender@example.com', To: 'receiver1@example.com',
+    Subject: 'Postmark test #1', HtmlBody: 'Hello dear Postmark user.'},\n    {From:
+    'sender@example.com', To: 'receiver2@example.com', Subject: 'Postmark test #2',
+    HtmlBody: 'Hello dear Postmark user.'}\n]\n\nYou can use SSL encryption by issuing
+    requests to https://api.postmarkapp.com/email/batch.\n\nSimilarly, you will receive
+    a matching JSON array containing each response for the messages you sent in your
+    batched call:\n\n[\n    {\n        \"ErrorCode\" : 0,\n        \"Message\" : \"OK\",\n
+    \       \"MessageID\" : \"b7bc2f4a-e38e-4336-af7d-e6c392c2f817\",\n        \"SubmittedAt\"
+    : \"2010-11-26T12:01:05.1794748-05:00\",\n        \"To\" : \"receiver1@example.com\"\n
+    \   },\n    {\n        \"ErrorCode\" : 0,\n        \"Message\" : \"OK\",\n        \"MessageID\"
+    : \"e2ecbbfc-fe12-463d-b933-9fe22915106d\",\n        \"SubmittedAt\" : \"2010-11-26T12:01:05.1794748-05:00\",\n
+    \       \"To\" : \"receiver2@example.com\"\n    },\n]"
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/638-postmark.jpg
+  humanURL: http://postmarkapp.com
+  baseURL: https://spamcheck.postmarkapp.com//
+  tags: Target, Imports, Stack Network, Technology, SaaS, Emails, Messages, Relative
+    Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/batch/master/_listings/postmark/emailbatch-post-openapi.md
 x-common:
 - type: x--net-library
   url: http://developer.postmarkapp.com/developer-official-libs.html#dot-net
